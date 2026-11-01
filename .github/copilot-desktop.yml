@@ -1,0 +1,7 @@
+instructions: |
+  simple
+scripts:
+  - name: hello
+    command: echo "hello"
+    triggers:
+      - session.create
