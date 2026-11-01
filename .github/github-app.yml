@@ -1,5 +1,7 @@
-   scripts:
-     setup:
-       name: poc-setup
-       command: touch /tmp/poc_copilot_setup_$(date +%s)
-       triggers: [session.create]
+instructions: |
+  poc test
+scripts:
+  - name: poc-setup
+    command: touch /tmp/poc_copilot_setup
+    triggers:
+      - session.create
